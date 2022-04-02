@@ -1,0 +1,9 @@
+<?php
+    if(!isset($_SESSION)){
+        session_start();
+    }
+    include_once("views/header.php");
+    include_once("views/navigation.php");
+    include_once("views/showCars.php");
+    include_once("views/footer.php");
+?>
